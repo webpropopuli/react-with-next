@@ -26,3 +26,7 @@ So it's just another React component. It's also tied into location.history which
 'in a real app, we need to create pages dynamically in order to display dynamic content. There are many approaches to do that with Next.js.'
 
 Not sure why that jumped out at me but I had a lightbulb moment, umm... momentarily.
+
+## Fetching
+
+we used `npm install --save isomorphic-unfetch` as it was recommended in our tutorial for being the same on client and server, but anything else might work _if_ we aren't using the same code to do both in the same place. We'll see...
