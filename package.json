@@ -16,8 +16,8 @@
   },
   "scripts": {
     "dev": "node server.js",
-      "build": "next build",
-      "start": "next start -p 8000",
+    "build": "next build",
+    "start": "next start -p 8000",
     "export": "next build && next export"
   }
 }

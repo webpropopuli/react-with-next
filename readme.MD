@@ -30,3 +30,18 @@ Not sure why that jumped out at me but I had a lightbulb moment, umm... momentar
 ## Fetching
 
 we used `npm install --save isomorphic-unfetch` as it was recommended in our tutorial for being the same on client and server, but anything else might work _if_ we aren't using the same code to do both in the same place. We'll see...
+
+## Static?
+
+````
+npm build
+npm export
+cd out
+serve -p 8080```
+
+Ta Daa...
+````
+
+## Hosting:
+
+https://next-test-phy0ez854.now.sh
